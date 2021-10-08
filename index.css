@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Work+Sans:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Klee+One&display=swap');
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+#Header{
+  background-color: #eeeeee;
+}
+.first-bg{
+  background: url('/src/images/bg1.png');
+  text-align: center;
+ background-color: #eeeeee;
+ 
+ background-size: cover;
+}
+.animated{
+  animation: up-down 2s ease-in-out infinite alternate-reverse;
+}
+@keyframes up-down {
+  0% {
+      transform: translateY(7px);
+  }
+  100%{
+    transform: translateY(-7px);
+  }
+}
+.first-bg img{
+  margin-top: 15%;
+}
+.second-bg{
+  background-color: white;
+}
+.login-page h3{
+  text-align: center;
+  font-family: 'Comfortaa', cursive;
+  font-weight: bold;
+}
+.login-page p{
+  text-align: center;
+  font-family: 'Comfortaa', cursive;
+  margin-top: 5%;
+
+}
+.btn-set button{
+ padding: 9px 60px !important;
+ border-radius: 0%;
+ font-family: 'Comfortaa', cursive;
+ font-size: revert;
+ border: 1px solid #a4a4a9;
+ background-color: white;
+ 
+
+}
+.btn-set{
+  text-align: center;
+  margin: 2%;
+}
+.btn-set i{
+  color: 	#DB4437;
+  margin-right: 6%;
+  font-size: revert;
+}
+.btn btn{
+  margin-left: 20px;
+}
+.btn-n h6{
+  display: contents;
+  color: #5B5FF7;
+  font-weight: 600;
+ 
+}
+.btn-n button{
+  margin-top: 4%;
+}
+.set-c{
+  color: #5B5FF7;
+}
+.btn-n p{
+  margin-top: 8%;
+  font-family: 'Comfortaa', cursive;
+  font-size: x-small;
+  color: #a4a4a9;
+}
+.forms-set{
+  margin-top: 4%;
+}
+.form-group label{
+  color: #a4a4a9;
+  font-weight: 400;
+  font-family: 'Comfortaa', cursive;
+}
+.form-group input{
+  border-radius: 0%;
+  font-family: 'Comfortaa', cursive;
+  font-size: smaller;
+}
+.form-check-input{
+  margin-top: 1%;
+}
+.form-check-label{
+  margin-left: 5%;
+}
+.form-control:focus{
+  color: black;
+  box-shadow: none;
+  
+}
+.btn-s button{
+  width: 100%;
+  background-color: #5B5FF7;
+  border-radius: 0%;
+  color: white;
+  font-family: 'Comfortaa', cursive;
+ 
+}
+.login-n h6{
+  font-family: 'Comfortaa', cursive;
+  margin-top: 8%;
+  font-size: inherit;
+}
+.login-n a{
+  text-decoration: none;
+}
+.inner-s{
+  color: #5B5FF7;
+  margin-left: 0.5rem;
+}
+.divder{
+  
+  border: 1px solid #a4a4a9;
+  width: 50%;
+}
+.divder-text{
+  font-family: 'Comfortaa', cursive;
+  font-size: unset;
+ 
+}
+.s-links{
+  display: flex;
+  justify-content: center;
+  margin-top: 4%;
+}
+.social-icons li{
+  display: inline-flex;
+}
+
+.social-icons li i{
+  margin-right: 30px;
+  font-size: large;
+ padding: 10px 10px;
+ border-radius: 50%;
+  color: white;
+}
+.social-set i{
+  background-color: #3b5998;
+}
+.social-set2 i{
+  background-color: #0e76a8;
+}
+.social-set3 i{
+  background-color:	#1DA1F2;
+}
+
+.social-st4 i{
+  background-color: #DB4437;
+}
+.btn-sets button{
+  padding: 9px 48px !important;
+  border-radius: 0%;
+  font-family: 'Comfortaa', cursive;
+  font-size: revert;
+  border: 1px solid #a4a4a9;
+  background-color: white;
+  
+ 
+ }
+ .btn-sets{
+   text-align: center;
+   margin: 2%;
+ }
+ .btn-sets i{
+   color: 	#DB4437;
+   margin-right: 6%;
+   font-size: revert;
+ }
+
+
+
+
+
